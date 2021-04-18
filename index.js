@@ -66,8 +66,7 @@ app.use("/api/v1/posts", postRouter);
 app.use("/api/v1/auth", authRouter);
 
 app.get("/api/v1", (_, res) => {
-  res.send("<h1>Hey</h1>");
-  console.log("Yeah bitch!");
+  res.send("<h1>Hello Auth!!!</h1>");
 });
 
 const port = process.env.PORT || 3000;
